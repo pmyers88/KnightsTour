@@ -25,7 +25,7 @@ public class Graph {
 	
 	public void addConnection(Vertex vertex) {
 		vertices.add(vertex);
-		// need to clear the cache if the graph has changed
+		// need to clear the cache if the graph has changged
 		if(!movesValueCache.isEmpty()) {
 			movesValueCache.clear();
 		}
